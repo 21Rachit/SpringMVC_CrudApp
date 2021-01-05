@@ -1,0 +1,10 @@
+use shubham;
+create table patient(
+Patient_id int not null primary key auto_increment,
+Patient_Name varchar(255),
+Patient_Age int,
+description varchar(255),
+Creation_Ts datetime,
+Updation_Ts datetime
+);
+select * from patient;
